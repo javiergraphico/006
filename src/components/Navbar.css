@@ -1,0 +1,42 @@
+nav{
+  background-color: #f5db13;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: .5rem 0;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, .1);
+}
+nav > svg {
+  height: 7rem;
+  width: auto;
+}
+
+.switch{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.switch > svg{
+  height: 1.5rem;
+}
+.switch > label{
+  background-color: #5e5e5e;
+  width: 4rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+.switch-slider{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  transition: 0.2s;
+}
+.switch-check:checked + .switch-slider{
+  transform: translateX(2.6rem);
+}

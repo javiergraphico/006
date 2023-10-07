@@ -1,0 +1,48 @@
+.titulo{
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  margin: 2rem 0 1rem 0; 
+}
+.container-buscador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 0;
+}
+.input-buscador{
+  background-color: var(--card-color);
+  color: var(--text-color);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+  flex: .4;
+  font-size: 1rem;
+  box-shadow: 4px 4px 16px rgba(0,0,0,0.1);
+}
+.btn-buscador{
+  background-color: #26e;
+  color: #f2f2f2;
+  border-radius: 0.625rem;
+  padding: 0.75rem;
+  border: none;
+  box-shadow: 4px 4px 16px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+  font-size: 1rem;
+  transition: 0.2s;
+}
+.btn-buscador > svg{
+  fill: #f2f2f2;
+}
+.btn-buscador:hover{
+  transform: scale(0.95);
+  opacity: 0.9;
+}
+.btn-buscador:focus{
+  border: none;
+}
